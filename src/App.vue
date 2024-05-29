@@ -1,23 +1,20 @@
 <template>
     <AddPost></AddPost>
-    <div class="post_list">
-        <PostList></PostList>
+    <div class="main_list">
+    <PostList></PostList>
     </div>  
 </template>
 
 <script setup>
 import AddPost from './components/AddPost.vue'
 import PostList from './components/PostList.vue';
-
-
-
 </script>
 
 <style>
-    .post_list{
+    .main_list{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 </style>
